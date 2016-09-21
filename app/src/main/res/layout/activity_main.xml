@@ -9,19 +9,34 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/bg"
-      >
+
+        android:weightSum="1">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="110dp"
+            android:layout_height="24dp"
+            android:background="#ff36"
             android:onClick="seach"
-            android:text="搜尋" />
+            android:text="搜尋"
+            android:layout_gravity="center_vertical" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="110dp"
+            android:layout_height="24dp"
             android:onClick="oder"
-            android:text="訂票" />
+            android:background="#ff9"
+            android:text="訂票"
+            android:layout_gravity="center_vertical" />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="110dp"
+            android:layout_height="24dp"
+            android:onClick="time"
+            android:background="#ff33"
+            android:text="發車"
+            android:layout_gravity="center_vertical" />
     </LinearLayout>
 
     <TextView
