@@ -13,26 +13,24 @@
         android:weightSum="1">
 
         <Button
-            android:layout_weight="1"
-            android:layout_width="110dp"
-            android:layout_height="24dp"
+            android:layout_width="118dp"
+            android:layout_height="34dp"
             android:background="#ff36"
-            android:onClick="seach"
+            android:onClick="search"
             android:text="搜尋"
             android:layout_gravity="center_vertical" />
 
         <Button
-            android:layout_weight="1"
-            android:layout_width="110dp"
-            android:layout_height="24dp"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
             android:onClick="oder"
             android:background="#ff9"
             android:text="訂票"
             android:layout_gravity="center_vertical" />
         <Button
-            android:layout_weight="1"
+            android:layout_weight="1.03"
             android:layout_width="110dp"
-            android:layout_height="24dp"
+            android:layout_height="70dp"
             android:onClick="time"
             android:background="#ff33"
             android:text="發車"
@@ -45,6 +43,5 @@
         />
 
 
-//http://huli.logdown.com/posts/206990-teaching-movie-to-nine-fast-development
 
 </LinearLayout>
